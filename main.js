@@ -55,7 +55,7 @@ poetas_tops[2].onclick = function(){
 	window.open('Poetas/ph.html', '_blank');
 }
 poetas_tops[3].onclick = function(){
-	window.open('Poetas/nanomachines.html', '_blank');
+	window.open('Poetas/Nanomachines.html', '_blank');
 }
 poetas_tops[4].onclick = function(){
 	window.open('Poetas/Alface.html', '_blank');
