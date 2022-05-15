@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Poesias (placeholder)</title>
+		<link href="style.css" rel="stylesheet">
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+		<style>
+			.cabecario{
+				font-size: 30px;
+				text-align: center;
+				letter-spacing: 1px;
+				line-height: 32px;
+				width: 500px;
+				height: 165px;
+				margin: 0 auto;
+				background-color: rgba(100, 100, 101, 0.2);
+				padding: 0 15px 15px 15px;
+				border: 1px solid black;
+			}
+
+			/* */
+			.recentes{
+				position: absolute;
+				top: 320px;
+				left: 30px;
+				width: 240px;
+				border: 3px solid red;
+				background-color: rgba(250, 250, 250, 0.5);
+				color: 10;
+				font-size: 20px;
+				letter-spacing: 1px;
+				line-height: 20px;
+			}
+			.recent-poems{	
+				position: relative;
+				top: 0px;
+				left: 10px;
+				text-align: left;
+			}
+			.recent-poems button{
+				background-color: rgba(200, 200, 200, 0.6);
+				border: 1px solid rgb(100, 100, 101);
+			}
+			#recentes-title{
+				position: absolute;
+				top: 260px;
+				left: 85px;
+				height: 25px;
+				border: 3px solid rgba(220, 100, 140, 0.8);
+				background-color: rgba(220, 220, 220, 0.2);
+				color: 10;
+				font-size: 21px;
+				letter-spacing: 2px;
+				line-height: 20px;
+			}
+			/* */
+
+			.populares{
+				position: absolute;
+				top: 290px;
+				left: 330px;
+				width: 555px;
+				border: 3px solid red;
+				background-color: rgba(250, 250, 250, 0.5);
+				color: 10;
+				font-size: 20px;
+				letter-spacing: 1px;
+				line-height: 20px;
+			}
+			.popular-poems{
+				position: relative;
+				top: 0px;
+				left: 14px;
+				text-align: left;
+			}
+			.popular-poems button{
+				background-color: rgba(200, 200, 200, 0.6);
+				border: 1px solid rgb(100, 100, 101);
+			}
+			#populares-title{
+				position: absolute;
+				top: 200px;
+				left: 500px;
+				border: 3px solid rgba(220, 100, 140, 0.8);
+				background-color: rgba(220, 220, 220, 0.2);
+				color: 10;
+				font-size: 40px;
+				letter-spacing: 1px;
+				line-height: 39px;
+			}
+
+			.poetas{
+				position: absolute;
+				top: 320px;
+				left: 950px;
+				width: 240px;
+				border: 3px solid red;
+				background-color: rgba(250, 250, 250, 0.5);
+				color: 10;
+				font-size: 20px;
+				letter-spacing: 1px;
+				line-height: 20px;
+			}
+			.poetasranked{
+				position: relative;
+				top: 0px;
+				left: 14px;
+				text-align: left;
+			}
+			.poetasranked button{
+				background-color: rgba(200, 200, 200, 0.6);
+				border: 1px solid rgb(100, 100, 101);
+			}
+			#poetas-title{
+				position: absolute;
+				top: 260px;
+				left: 995px;
+				width: 140px;
+				height: 25px;
+				border: 3px solid rgba(220, 100, 140, 0.8);
+				background-color: rgba(220, 220, 220, 0.2);
+				color: 10;
+				font-size: 21px;
+				letter-spacing: 1px;
+				line-height: 25px;
+			}
+			/* */
+
+			.categorias{
+				position: absolute;
+				top: 25px;
+				left: 970px;
+				border: 3px solid rgba(220, 100, 140, 0.8);
+				background-color: rgba(220, 220, 220, 0.2);
+			}
+			.categorias button{
+				background-color: rgba(200, 200, 200, 0.9);
+				border: 1px solid rgb(100, 100, 101);
+			}
+
+			#about-us{
+				background-color: rgb(150, 150, 150);
+				position: absolute;
+				top: 10px;
+			}
+
+			html{	
+				font-family: 'Montserrat', sans-serif;
+				background-color: rgb(143, 209, 250);
+			}
+
+			body{
+
+			}
+		</style>
+	</head>
+	<body>
+		<!-- -->
+		<div class="cabecario">
+			<h1 style="color:rgb(190, 100, 140)">Título da página</h1>
+			<h4>Melhores poesias do mundo</h4>
+		</div>
+		<!-- -->
+		<h2 id="recentes-title">Ver todos-</h2>
+		<div class="recentes">
+			<ol class="recent-poems">
+				<li> <!-- 1 -->
+					<button id="recente1" style="font-size:15px">null</button>
+				</li>
+				<li> <!-- 2 -->
+					<button id="recente2" style="font-size:15px">null</button>
+				</li>
+				<li> <!-- 3 -->
+					<button id="recente3" style="font-size:15px">null</button>
+				</li>
+				<li> <!-- 4 -->
+					<button id="recente4" style="font-size:15px">Árvore</button>
+				</li>
+				<li> <!-- 5 -->
+					<button id="recente5" style="font-size:15px">Ventania</button>
+				</li>
+				<li> <!-- 6 -->
+					<button id="recente6" style="font-size:15px">Cidade Fantasma</button>
+				</li>
+				<li> <!-- 7 -->
+					<button id="recente7" style="font-size:15px">Chamas</button>
+				</li>
+				<li> <!-- 8 -->
+					<button id="recente8" style="font-size:15px">Mente</button>
+				</li>
+				<li> <!-- 9 -->
+					<button id="recente9" style="font-size:15px">Desastre no Hospital</button>
+				</li>
+				<li> <!-- 10 -->
+					<button id="recente10" style="font-size:15px">Isolamento</button>
+				</li>
+			</ol>
+		</div>
+		<!-- -->
+		<h2 id="populares-title">Populares-</h2>
+		<div class="populares">
+			<ol class="popular-poems">
+				<li>
+					<button id="popular1" style="font-size:15px">Isolamento</button>
+				</li>
+				<li>
+					<button id="popular2" style="font-size:15px">null</button>
+				</li>
+				<li>
+					<button id="popular3" style="font-size:15px">null</button>
+				</li>
+				<li>
+					<button id="popular4" style="font-size:15px">null</button>
+				</li>
+				<li>
+					<button id="popular5" style="font-size:15px">null</button>
+				</li>
+			</ol>
+		</div>
+		<!-- -->
+		<h2 id="poetas-title">Top Poetas-</h2>
+		<div class="poetas">
+			<ol class="poetasranked">
+				<li>
+					<button id="poeta1" style="font-size:15px">Gaston</button>
+				</li>
+				<li>
+					<button id="poeta2" style="font-size:15px">Maaahh</button>
+				</li>
+				<li>
+					<button id="poeta3" style="font-size:15px">Ph</button>
+				</li>
+				<li>
+					<button id="poeta4" style="font-size:15px">Nanomachines</button>
+				</li>
+				<li>
+					<button id="poeta5" style="font-size:15px">Alface</button>
+				</li>
+			</ol>
+		</div>
+		<!-- -->
+		<div class="about">
+			<button id="about-us">About us!</button>
+		</div>
+		
+		<div class="categorias">
+			<h2>Categorias - <h2>
+			<ul>
+				<li>
+					<button id="piadas_button">Piadas</button>
+				</li>	 
+				<li>
+					<button id="haicai_button">Haicai</button>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<script src="main.js"></script>
+	</body>
+</html>
