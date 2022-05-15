@@ -1,6 +1,11 @@
+.info{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
 html{
 	font-family: 'Montserrat', sans-serif;
-	background-color: rgb(53, 1, 117); 
+	background-color: rgb(143, 209, 250);
 }
 
 body{
