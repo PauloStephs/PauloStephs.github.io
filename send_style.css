@@ -1,7 +1,22 @@
-.body{
-
+.email-info{
+	background-color: rgba(250, 250, 250, 0.3);
+	width: 490px;
+	font-size: 25px;
+	line-height: 50px;
+}
+.tutorial img{
+	position: relative;
+	top: -500px;
+	left: 580px;
+	width: 500px;
 }
 
-.html{
+.extras{
+	position: absolute;
+	top: 650px;
+}
 
+html{
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(143, 209, 250);
 }
