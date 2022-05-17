@@ -137,6 +137,11 @@
 	position: absolute;
 	top: 10px;
 }
+#send_{
+	background-color: rgb(190, 190, 190);
+	position: absolute;
+	top: 35px;
+}
 
 html{	
 	font-family: 'Montserrat', sans-serif;

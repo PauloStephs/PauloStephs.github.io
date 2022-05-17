@@ -1,9 +1,13 @@
 let aboutus_button = document.getElementById("about-us");
+let send_button = document.getElementById("send_");
 let piadus_button = document.getElementById("piadas_button");
 let haicus_button = document.getElementById("haicai_button");
 
 aboutus_button.onclick = function(){
 	location.replace("about-us-page.html");
+}
+send_button.onclick = function(){
+	location.replace("send.html");
 }
 piadus_button.onclick = function(){
 	location.replace("index_piadas.html");
