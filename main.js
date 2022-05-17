@@ -37,6 +37,9 @@ poesias_recentes[4].onclick = function(){
 poesias_recentes[3].onclick = function(){
 	window.open('Poesias/alface_árvore.html', '_blank');
 }
+poesias_recentes[2].onclick = function(){
+	window.open('Poesias/ph_perdido.html', '_blank');
+}
 
 /* POESIAS QUE ESTÃO POPULARES */
 
