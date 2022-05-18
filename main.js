@@ -2,6 +2,7 @@ let aboutus_button = document.getElementById("about-us");
 let send_button = document.getElementById("send_");
 let piadus_button = document.getElementById("piadas_button");
 let haicus_button = document.getElementById("haicai_button");
+let versosl_button = document.getElementById("versoslivres_button");
 
 aboutus_button.onclick = function(){
 	location.replace("about-us-page.html");
@@ -14,6 +15,9 @@ piadus_button.onclick = function(){
 }
 haicus_button.onclick = function(){
 	location.replace("index_haicai.html");
+}
+versosl_button.onclick = function(){
+	location.replace("index_versolivre.html");
 }
 
 let poesias_recentes = [document.getElementById("recente1"), document.getElementById("recente2"), document.getElementById("recente3"), document.getElementById("recente4"), document.getElementById("recente5"), document.getElementById("recente6"), document.getElementById("recente7"), document.getElementById("recente8"), document.getElementById("recente9"), document.getElementById("recente10")];
