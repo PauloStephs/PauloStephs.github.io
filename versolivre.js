@@ -25,6 +25,9 @@ poesias_vl[6].onclick = function(){
 poesias_vl[7].onclick = function(){
 	window.open('Poesias/vini_isolamento.html', '_blank');
 }
+poesias_vl[8].onclick = function(){
+	window.open('Poesias/guidenofo_tristeza_aquatica.html', '_blank');
+}
 
 let voltar_button = document.getElementById("main_button");
 

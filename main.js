@@ -48,6 +48,9 @@ poesias_recentes[3].onclick = function(){
 poesias_recentes[2].onclick = function(){
 	window.open('Poesias/ph_perdido.html', '_blank');
 }
+poesias_recentes[1].onclick = function(){
+	window.open('Poesias/guidenofo_tristeza_aquatica.html', '_blank');
+}
 
 /* POESIAS QUE ESTÃO POPULARES */
 
@@ -70,4 +73,7 @@ poetas_tops[3].onclick = function(){
 }
 poetas_tops[4].onclick = function(){
 	window.open('Poetas/Alface.html', '_blank');
+}
+poetas_tops[4].onclick = function(){
+	window.open('Poetas/Guidenofo.html', '_blank');
 }

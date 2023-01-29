@@ -7,6 +7,9 @@ poesias_haicais[0].onclick = function(){
 poesias_haicais[1].onclick = function(){
 	window.open('Poesias/nanomachines_ventania.html');
 }
+poesias_haicais[2].onclick = function(){
+	window.open('Poesias/guidenofo_tristeza_aquatica.html');
+}
 
 let voltar_button = document.getElementById("main_button");
 
